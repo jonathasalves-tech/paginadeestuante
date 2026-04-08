@@ -1,168 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Meus Estudos - ®ψΣ</title>
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudos de Jonathas - ®ψΣ</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-	* {
-  box-sizing: border-box;
-}
-table, th, td {
-  border:1px solid black;
-}
-</style>
-		
-		</head>
-		<div>	<h1 style="background:linear-gradient(#bbbbbb, #fae1e1);padding:0px;text-align:center;">
-		MEUS ESTUDOS - ®ψΣ </h1>
-            
-	</div>
-<header>
-			<div class="caixa">
-				<img src="logoestudante.jpg" width="50" height="50"> 
-			</div>
-	  
-		</header>
+    <style>
+        * { box-sizing: border-box; }
 
-	<body     style="font-family:Verdana;color:#0f0000fb;">
+        body {
+            font-family: 'Montserrat', Verdana, sans-serif;
+            color: #222;
+            background: #f5f7fa;
+            margin: 0;
+        }
 
-		
-		<div style="overflow:auto">
-		  <div class="menu"> 
-			<nav>
-			<a href="index.html">Home</a>
-			<a href="ciencias.html">Ciências</a>
-			<a href="matematica.html">Matemática</a>
-			<a href="linguagem.html">Linguagem</a>
-	        <a href="exp.html">MU&MUV</a>
-			<a href="contato.html">Contato</a>
-		    </nav>
-		</div>
-		
+        h1 {
+            background: linear-gradient(#4a90e2, #50e3c2);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
 
-		  <main>
-			<ul class="estudos">
-			  <li>
-				<h2>Física</h2>
-				<img src="fis.gif" width="100" height="100">
-				<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-				<p class="produto-preco">R$ 25,00</p>
-			  </li>
-			  <li>
-				<h2>Química</h2>
-				<img src="qui.gif" width="150" height="100">
-				<p class="produto-descricao">Corte e desenho profissional de barba</p>
-				<p class="produto-preco">R$ 18,00</p>
-			  </li>
-			  <li>
-				<h2>Biologia</h2>
-				<img src="bio.gif" width="100" height="100">
-				<p class="produto-descricao">Pacote completo de cabelo e barba</p>
-				<p class="produto-preco">R$ 35,00</p>
-			  </li>
-			</ul>.
-			
-		</main>
+        #relogio {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            margin-top: 5px;
+        }
 
-			
+        header {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
 
-<h2>TH elements define table headers</h2>
+        header img { border-radius: 50%; }
 
-<table class="tabela">
-   <tr>
-      <th>Posição (m)</th>
-        <th>t1 (s)</th>
-        <th>t2 (s)</th>
-        <th>t3 (s)</th>
-        <th>t4 (s)</th>
-        <th>t5 (s)</th>
-        <th>tm (s)</th>
-  </tr>
-  <tr>
-    <th>Posição (m)</th>
-        <th>t1 (s)</th>
-        <th>t2 (s)</th>
-        <th>t3 (s)</th>
-        <th>t4 (s)</th>
-        <th>t5 (s)</th>
-        <th>tm (s)</th>
-  </tr>
-  <tr>
-    <th>Posição (m)</th>
-        <th>t1 (s)</th>
-        <th>t2 (s)</th>
-        <th>t3 (s)</th>
-        <th>t4 (s)</th>
-        <th>t5 (s)</th>
-        <th>tm (s)</th>
-  </tr>
-   <tr>
-    <th>Posição (m)</th>
-        <th>t1 (s)</th>
-        <th>t2 (s)</th>
-        <th>t3 (s)</th>
-        <th>t4 (s)</th>
-        <th>t5 (s)</th>
-        <th>tm (s)</th>
-  </tr>
-  <tr>
-    <th>Posição (m)</th>
-        <th>t1 (s)</th>
-        <th>t2 (s)</th>
-        <th>t3 (s)</th>
-        <th>t4 (s)</th>
-        <th>t5 (s)</th>
-        <th>tm (s)</th>
-  </tr>
-</table>
+        nav {
+            background: #4a90e2;
+            padding: 10px;
+            text-align: center;
+        }
 
-			<table style="width:100%">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-<p>To understand the example better, we have added borders to the table.</p>
+        nav a:hover { color: #ffdd57; }
 
+        main { padding: 20px; }
 
-  <img src="exp.jpg" alt="Girl in a jacket" style="width:100px;height:200px;">
-    <img src="coor.jpg" alt="Girl in a jacket" style="width:100px;height:200px;">
-    <img src="tab.jpg" alt="Girl in a jacket" style="width:100px;height:200px;">
-    <img src="mat.jpg" alt="Girl in a jacket" style="width:100px;height:200px;">
-			
-		<footer>
-			<p class="copyright">&copy; Copyright Física Renato Pereira ®ψΣ - 2023</p>
-		</footer>
-	
+        .estudos {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
 
+        .estudos li {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
 
+        .estudos h2 { color: #4a90e2; }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
 
+        table, th, td { border: 1px solid #ccc; }
 
+        th {
+            background: #4a90e2;
+            color: white;
+            padding: 8px;
+        }
 
+        td {
+            padding: 8px;
+            text-align: center;
+        }
 
- 
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ESTUDOS DE JONATHAS - ®ψΣ</h1>
+    <div id="relogio"></div> <!-- Relógio aparece aqui -->
 
-  
+    <header>
+        <img src="logoestudante.jpg" width="50" height="50" alt="Logo Estudante">
+    </header>
 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ciencias.html">Ciências</a>
+        <a href="matematica.html">Matemática</a>
+        <a href="linguagem.html">Linguagem</a>
+        <a href="exp.html">MU&MUV</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 
+    <main>
+        <ul class="estudos">
+            <li>
+                <h2>Física</h2>
+                <img src="fis.gif" width="100" height="100" alt="Física">
+                <p>Estudo das forças e movimentos.</p>
+            </li>
+            <li>
+                <h2>Química</h2>
+                <img src="qui.gif" width="150" height="100" alt="Química">
+                <p>Transformações da matéria e reações químicas.</p>
+            </li>
+            <li>
+                <h2>Biologia</h2>
+                <img src="bio.gif" width="100" height="100" alt="Biologia">
+                <p>Investigação dos seres vivos e processos vitais.</p>
+            </li>
+        </ul>
+
+        <h2>Tabela de Experimentos</h2>
+        <table>
+            <tr>
+                <th>Posição (m)</th>
+                <th>t1 (s)</th>
+                <th>t2 (s)</th>
+                <th>t3 (s)</th>
+                <th>t4 (s)</th>
+                <th>t5 (s)</th>
+                <th>tm (s)</th>
+            </tr>
+            <tr>
+                <td>1</td><td>2</td><td>2.1</td><td>2.2</td><td>2.0</td><td>2.1</td><td>2.08</td>
+            </tr>
+            <tr>
+                <td>2</td><td>3</td><td>3.1</td><td>3.2</td><td>3.0</td><td>3.1</td><td>3.08</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Estudos de Jonathas ®ψΣ - 2026</p>
+    </footer>
+
+    <script>
+        function atualizarRelogio() {
+            const agora = new Date();
+            const dia = agora.getDate().toString().padStart(2, '0');
+            const mes = (agora.getMonth() + 1).toString().padStart(2, '0');
+            const ano = agora.getFullYear();
+            const horas = agora.getHours().toString().padStart(2, '0');
+            const minutos = agora.getMinutes().toString().padStart(2, '0');
+            const segundos = agora.getSeconds().toString().padStart(2, '0');
+            document.getElementById("relogio").textContent = 
+                `Data: ${dia}/${mes}/${ano} | Hora: ${horas}:${minutos}:${segundos}`;
+        }
+        setInterval(atualizarRelogio, 1000);
+        atualizarRelogio();
+    </script>
 </body>
 </html>
-
